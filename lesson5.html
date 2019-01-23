@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!-- inline display property stays inline, block element takes up entire line/width  -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 5 | Page Layouts</title>
+    <link rel="stylesheet" href="css/main1.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free 2/css/all.css">
+
+</head>
+<body>
+    <!-- shortcut!! -> header>div.container>nav>a*4
+                use containt for nav when using the background image -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="lesson5.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="event.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header> 
+    <!-- end of header -->
+    <main>
+        <div class="container"><div class="floatleft">
+                <h3>Welcome To Our Website</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum molestias ad odio asperiores veniam dolore eum cupiditate, nulla ex. Ratione, vel. Repudiandae, mollitia odit quod officia maiores aperiam ducimus minima veniam temporibus accusantium maxime, nobis dignissimos unde, commodi voluptas repellat.
+                </p>
+            </div>   <!-- end of float left -->
+            <div class="floatright">
+                <h3>About Our School</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo cupiditate officia ratione. Excepturi itaque ducimus hic ipsa omnis veniam, exercitationem eius. Eius incidunt laborum vero itaque voluptates sapiente? Sit, est modi suscipit facere assumenda delectus quisquam unde deleniti earum.
+                </p>
+                <h4>More News About Our School</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo praesentium deserunt repellendus, pariatur deleniti libero fuga amet, sequi facere itaque veritatis molestiae voluptate perferendis quos voluptatibus ratione voluptatem, excepturi recusandae?</p>
+                <p>
+                    <a href="read.html" class= "button">Read More</a>
+                </p>
+            </div>  <!-- end of float right -->
+        </div> <!-- end of container div -->
+    </main>
+    <section>
+        <div class="box">
+            <i class="fas fa-book"></i>
+            <h4>Knowledge is Power</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, magnam?</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <h4>Senior High School</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, facilis!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h4>Unmatched Professor</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, assumenda!</p>
+        </div>
+    </section>
+
+
+<!-- connect with github
+    csspagelayout 
+    create repository
+    use command line within cs202 folder
+    git init 
+    git config --global user.name 'schmid38'
+    git config --global user.email ''
+    git config --global user.password ''
+    git add .
+    git status
+    git remote add orgin ((find at github.com))
+    git push -u origin master-->
+
+
+</body>
+</html>
